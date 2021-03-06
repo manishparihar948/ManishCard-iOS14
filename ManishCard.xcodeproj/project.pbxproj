@@ -11,6 +11,8 @@
 		CD0FCFB425F3F7E0002A6CDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD0FCFB325F3F7E0002A6CDF /* ContentView.swift */; };
 		CD0FCFB625F3F7E1002A6CDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0FCFB525F3F7E1002A6CDF /* Assets.xcassets */; };
 		CD0FCFB925F3F7E1002A6CDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD0FCFB825F3F7E1002A6CDF /* Preview Assets.xcassets */; };
+		CDA9A9DE25F3FCB900B697BA /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CDA9A9DD25F3FCB900B697BA /* Pacifico-Regular.ttf */; };
+		CDA9A9E125F404C000B697BA /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA9A9E025F404C000B697BA /* InfoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		CD0FCFB525F3F7E1002A6CDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD0FCFB825F3F7E1002A6CDF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CD0FCFBA25F3F7E1002A6CDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDA9A9DD25F3FCB900B697BA /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		CDA9A9E025F404C000B697BA /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		CD0FCFB025F3F7E0002A6CDF /* ManishCard */ = {
 			isa = PBXGroup;
 			children = (
+				CDA9A9DC25F3FC8900B697BA /* fonts */,
 				CD0FCFB125F3F7E0002A6CDF /* ManishCardApp.swift */,
 				CD0FCFB325F3F7E0002A6CDF /* ContentView.swift */,
 				CD0FCFB525F3F7E1002A6CDF /* Assets.xcassets */,
 				CD0FCFBA25F3F7E1002A6CDF /* Info.plist */,
 				CD0FCFB725F3F7E1002A6CDF /* Preview Content */,
+				CDA9A9E025F404C000B697BA /* InfoView.swift */,
 			);
 			path = ManishCard;
 			sourceTree = "<group>";
@@ -67,6 +73,14 @@
 				CD0FCFB825F3F7E1002A6CDF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CDA9A9DC25F3FC8900B697BA /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CDA9A9DD25F3FCB900B697BA /* Pacifico-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +140,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDA9A9DE25F3FCB900B697BA /* Pacifico-Regular.ttf in Resources */,
 				CD0FCFB925F3F7E1002A6CDF /* Preview Assets.xcassets in Resources */,
 				CD0FCFB625F3F7E1002A6CDF /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +154,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD0FCFB425F3F7E0002A6CDF /* ContentView.swift in Sources */,
+				CDA9A9E125F404C000B697BA /* InfoView.swift in Sources */,
 				CD0FCFB225F3F7E0002A6CDF /* ManishCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
